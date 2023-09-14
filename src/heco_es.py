@@ -192,8 +192,8 @@ class MAES(Cec2017):
             #     case.append(0)
 
 
-            print(fes, all_time_best[self.dim + 2, 0], all_time_best[self.dim + 3, 0], current_best[self.dim + 2],
-                  current_best[self.dim + 3], σ, mean_w[0])
+            # print(fes, all_time_best[self.dim + 2, 0], all_time_best[self.dim + 3, 0], current_best[self.dim + 2],
+            #       current_best[self.dim + 3], σ, mean_w[0])
 
             if fes % (self.λ * self.dim) == 0:
                 fes_data.append(fes)
