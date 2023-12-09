@@ -108,11 +108,11 @@ for dim in [10, 30, 50, 100]:
     rank_median_value[-1, :] = rank_median_value.sum(axis=0) - 1
     df_mean_rank = pd.DataFrame(
         {
-            'CAL_LSAHDE': rank_mean_value[:, 0],
+            'CAL-LSAHDE': rank_mean_value[:, 0],
             'LSHADE44+IDE': rank_mean_value[:, 1],
             'LSAHDE44': rank_mean_value[:, 2],
             'UDE': rank_mean_value[:, 3],
-            'LSAHDE_IEpsilon': rank_mean_value[:, 8],
+            'LSAHDE-IEpsilon': rank_mean_value[:, 8],
             '$\epsilon$MA$g$ES': rank_mean_value[:, 6],
             'IUDE': rank_mean_value[:, 7],
             'CORCO': rank_median_value[:, 10],
@@ -123,11 +123,11 @@ for dim in [10, 30, 50, 100]:
     )
     df_median_rank = pd.DataFrame(
         {
-            'CAL_LSAHDE': rank_median_value[:, 0],
+            'CAL-LSAHDE': rank_median_value[:, 0],
             'LSHADE44+IDE': rank_median_value[:, 1],
             'LSAHDE44': rank_median_value[:, 2],
             'UDE': rank_median_value[:, 3],
-            'LSAHDE_IEpsilon': rank_median_value[:, 8],
+            'LSAHDE-IEpsilon': rank_median_value[:, 8],
             '$\epsilon$MA$g$ES': rank_median_value[:, 6],
             'IUDE': rank_median_value[:, 7],
             'CORCO': rank_median_value[:, 10],
